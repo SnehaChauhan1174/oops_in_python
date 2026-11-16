@@ -28,3 +28,4 @@ How Python Translates a * b
 	• self becomes a (the object on the left, where self.data is 2.0).
 	• other becomes b (the object on the right, where other.data is -3.0).
 4. Returning a New Object: Inside __mul__, Python multiplies the raw numbers (2.0 * -3.0 = -6.0), wraps the result in a brand-new Value object, and returns it—allowing you to chain more operations together later (like (a * b) + c).
+5. 
